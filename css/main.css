@@ -111,7 +111,7 @@ Couples Resort Responsive Build
  /* 3. ---Main Hero Image--- */
  
  #hero {
-    background: url(../images/hero-main.jpg) no-repeat;
+    background: url(../images/mob_hm_hero_01.jpg) no-repeat;
     height: 200px;
  }
  
@@ -215,7 +215,7 @@ Couples Resort Responsive Build
   }
  
  #why-choose-us-hero-con {
-   background: url(../images/why-choose-us-hero.jpg) no-repeat;
+   background: url(../images/mob_hm_sect_01.jpg) no-repeat;
    height: 195px;
  }
  
@@ -271,7 +271,7 @@ Couples Resort Responsive Build
  /* 6. ---About & FAQ--- */
  
  #about-hero-con {
-    background: url(../images/about-us-hero.jpg) no-repeat;
+    background: url(../images/mob_hm_sect_02.jpg) no-repeat;
     height: 195px;
  }
  
@@ -301,7 +301,7 @@ Couples Resort Responsive Build
  
  #faq-con h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
  }
  
  #faq-con h2 span {
@@ -313,7 +313,7 @@ Couples Resort Responsive Build
     margin-bottom: 16px;
  }
  
- .faq-items h3 {
+ .faq-items details {
     background: #e8e7e7;
     padding: 16px;
     font-size: 16px;
@@ -343,7 +343,7 @@ Couples Resort Responsive Build
  /* 7. ---Contact--- */
  
  #contact-hero-con {
-    background: url(../images/contact-hero.jpg);
+    background: url(../images/mob_hm_sect_03.jpg);
     height: 195px;
  }
  
@@ -407,12 +407,12 @@ Couples Resort Responsive Build
  /* 8. ---Footer--- */
  
  #footer-hero {
-    background-image: url(../images/footer.jpg);
+    background-image: url(../images/mob_footer.jpg);
      background-repeat: no-repeat;
     color: #fff;
     font-size: 12px;
     margin-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
  }
  
  #footer-hero h3 {
