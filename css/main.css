@@ -293,18 +293,18 @@ Couples Resort Responsive Build
     font-style: italic;
  }
  
- #faq-con {
+ #faq-con, #faq-con-1 {
     background-color: #f4f4f4;
     padding-top: 35px;
     padding-bottom: 30px;
  }
  
- #faq-con h2 {
+ #faq-con h2, #faq-con-1 h2 {
     font-size: 24px;
     margin-bottom: 10px;
  }
  
- #faq-con h2 span {
+ #faq-con h2 span, #faq-con-1 h2 span {
     color: #9a2018;
     font-size: 16px;
  }
