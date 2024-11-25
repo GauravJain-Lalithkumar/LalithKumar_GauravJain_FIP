@@ -157,7 +157,7 @@ Couples Resort Responsive Build
     padding-top: 20px;
  }
  
- #hero-summary p {
+ #hero-summary p, #fees-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
