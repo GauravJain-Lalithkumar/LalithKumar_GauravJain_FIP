@@ -434,3 +434,11 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+
+/* ---Rooms Page--- */ 
+
+/* 1. ---Hero Section--- */
+
+.hero-summary span {
+   color: #9a2018;
+}
