@@ -29,11 +29,16 @@ Couples Resort Responsive Build
  body {
     color: #626262;
     font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 18px;
  }
  
  a {
     text-decoration: none;
     transition: all .5s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
  }
  
  input, textarea {
@@ -44,6 +49,18 @@ Couples Resort Responsive Build
  
  .cr-red {
     color: #9a2018;
+ }
+
+ span {
+   color: #c54242;
+ }
+
+ ul {
+   text-decoration: none;
+ }
+
+ ul li {
+   text-decoration: none;
  }
  
  
@@ -142,8 +159,8 @@ Couples Resort Responsive Build
  
  .hero-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 5px 10px;
+    font-size: 18px;
  }
  
  .hero-img-h2 span,  .hero-img-h3 span {
@@ -210,9 +227,7 @@ Couples Resort Responsive Build
    padding: 5px;
  }
  
- #why-choose-us-nav ul li a.selected {
-    border-left: #9a2018 solid 5px;
-  }
+ 
  
  #why-choose-us-hero-con {
    background: url(../images/mob_hm_sect_01.jpg) no-repeat;
@@ -251,6 +266,7 @@ Couples Resort Responsive Build
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: center;
  }
  
  #why-choose-us-bottom-nav ol {
@@ -262,6 +278,10 @@ Couples Resort Responsive Build
  #why-choose-us-bottom-nav ol li {
     display: inline;
  }
+
+ #why-choose-us-nav ul li:hover {
+   border-left: 5px solid #9a2018;
+}
  
  #why-choose-us-bottom-nav ol li a {
     padding: 5px;
@@ -394,14 +414,15 @@ Couples Resort Responsive Build
     background: #9a2018;
     color: #fff;
     border: none;
+    border-radius: 10px;
     transition: all 200ms ease-in;
     width: 150px;
     align-self: flex-end;
  }
  
  #contact-hero-form input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
+    background-color: #c54242;
+    border-radius: 20px;
  }
  
  /* 8. ---Footer--- */
@@ -442,3 +463,12 @@ Couples Resort Responsive Build
 .hero-summary span {
    color: #9a2018;
 }
+
+details {
+   border: solid 1px lightgray;
+   padding: 20px;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: bold;
+}
+
