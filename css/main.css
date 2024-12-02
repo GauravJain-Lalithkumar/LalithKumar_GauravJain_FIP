@@ -453,15 +453,36 @@ Couples Resort Responsive Build
     color: #fff;
     border: none;
     border-radius: 10px;
-    transition: all 200ms ease-in;
     width: 150px;
     align-self: flex-end;
+    cursor: pointer;
  }
  
- #contact-hero-form input[type="submit"]:hover {
-    background-color: #c54242;
-    border-radius: 20px;
+
+
+.keyframe-button:hover {
+   background-color: #c54242;
+   animation: pulse 5s infinite ease-in-out;
+   transition: background-color 0.3s ease;
+   border-radius: 20px;
+}
+
+.keyframe-button:active {
+   background-color: #c54242;
+}
+
+@keyframes pulse {
+   0% { transform: scale(1);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+   50% {transform: scale(1.1);
+        box-shadow: 0 0 5px #c54242;
+   }
+
+   100% {transform: scale(1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
  }
+}
  
  /* 8. ---Footer--- */
  
@@ -619,28 +640,3 @@ Couples Resort Responsive Build
    margin-bottom: 10px;
 }
 
-.keyframe-button {
-   animation: pulse 5s infinite ease-in-out;
-   transition: background-color 0.3s ease;
-}
-
-.keyframe-button:hover {
-   background-color: #c54242;
-}
-
-.keyframe-button:active {
-   background-color: #c54242;
-}
-
-@keyframes pulse {
-   0% { transform: scale(1);
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-      }
-   50% {transform: scale(1.05);
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-   }
-
-   100% {transform: scale(1);
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
- }
-}
