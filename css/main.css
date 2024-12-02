@@ -429,7 +429,24 @@ Couples Resort Responsive Build
  #contact-hero-form textarea {
     height: 250px;
  }
+
+ #checkbox input {
+   display: inline;
+   margin-right: 10px;
+ }
+
  
+ input[type="checkbox"]:checked + span:after {
+   content: "\2705";
+   color: green;
+   margin-left: 10px;
+}
+
+ #contact-hero-form span {
+   color: #707070;
+}
+
+
  #contact-hero-form input[type="submit"] {
     padding: 12px 28px;
     background: #9a2018;
@@ -600,4 +617,30 @@ Couples Resort Responsive Build
    color: #9a2018;
    font-size: 12px;
    margin-bottom: 10px;
+}
+
+.keyframe-button {
+   animation: pulse 5s infinite ease-in-out;
+   transition: background-color 0.3s ease;
+}
+
+.keyframe-button:hover {
+   background-color: #c54242;
+}
+
+.keyframe-button:active {
+   background-color: #c54242;
+}
+
+@keyframes pulse {
+   0% { transform: scale(1);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+   50% {transform: scale(1.05);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   }
+
+   100% {transform: scale(1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
 }
