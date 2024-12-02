@@ -6,6 +6,8 @@ Couples Resort Responsive Build
 /* 
     CSS Guide 
 
+    Index Page
+
     1.  General Styles
     2.  Main Nav
     3.  Main Hero Image
@@ -14,13 +16,17 @@ Couples Resort Responsive Build
     6.  About & FAQ
     7.  Contact Form
     8.  Footer 
+
+    Rooms Page
+
+    1.  Rooms Section
  */
 
+ /* Index Page */
 
  /* 1. ---General Styles--- */
 
  #mobile-outline {
-    outline: 20px solid #333;
     max-width: 412px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
@@ -29,12 +35,14 @@ Couples Resort Responsive Build
  body {
     color: #626262;
     font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 18px;
  }
  
  a {
-    text-decoration: none;
-    transition: all .5s ease-in-out;
+   text-decoration: none;
+   transition: all .5s ease-in-out;
  }
+
  
  input, textarea {
     display: block;
@@ -45,7 +53,24 @@ Couples Resort Responsive Build
  .cr-red {
     color: #9a2018;
  }
- 
+
+ span {
+   color: #c54242;
+ }
+
+ ul {
+   list-style-type: none;
+   font-size: inherit;
+   padding: 0px;
+ } 
+
+ details {
+   border: solid 1px lightgray;
+   padding: 20px;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: bold;
+}
  
  /* 2. ---Main Nav--- */
  
@@ -142,8 +167,8 @@ Couples Resort Responsive Build
  
  .hero-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 5px 10px;
+    font-size: 18px;
  }
  
  .hero-img-h2 span,  .hero-img-h3 span {
@@ -163,6 +188,10 @@ Couples Resort Responsive Build
     margin-bottom: 20px;
  }
  
+ .hero-summary span {
+   color: #9a2018;
+}
+
  /* 4. ---Main Hero Image Contact--- */
  
  .fas {
@@ -210,16 +239,14 @@ Couples Resort Responsive Build
    padding: 5px;
  }
  
- #why-choose-us-nav ul li a.selected {
-    border-left: #9a2018 solid 5px;
-  }
+ 
  
  #why-choose-us-hero-con {
    background: url(../images/mob_hm_sect_01.jpg) no-repeat;
    height: 195px;
  }
  
- #why-choose-us-heading-box {
+ #why-choose-us-heading-box, #villas-heading-box, #chalet-heading-box, #masters-heading-box, #exotics-heading-box, #juniors-heading-box {
     align-self: end;
  }
  
@@ -251,6 +278,7 @@ Couples Resort Responsive Build
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: center;
  }
  
  #why-choose-us-bottom-nav ol {
@@ -262,6 +290,10 @@ Couples Resort Responsive Build
  #why-choose-us-bottom-nav ol li {
     display: inline;
  }
+
+ #why-choose-us-nav ul li:hover {
+   border-left: 5px solid #9a2018;
+}
  
  #why-choose-us-bottom-nav ol li a {
     padding: 5px;
@@ -394,14 +426,15 @@ Couples Resort Responsive Build
     background: #9a2018;
     color: #fff;
     border: none;
+    border-radius: 10px;
     transition: all 200ms ease-in;
     width: 150px;
     align-self: flex-end;
  }
  
  #contact-hero-form input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
+    background-color: #c54242;
+    border-radius: 20px;
  }
  
  /* 8. ---Footer--- */
@@ -437,8 +470,55 @@ Couples Resort Responsive Build
 
 /* ---Rooms Page--- */ 
 
-/* 1. ---Hero Section--- */
+/* 1. ---Rooms Section--- */
 
-.hero-summary span {
-   color: #9a2018;
+#room {
+   background: url(../images/rooms/mob_rm_hero_01.jpg) no-repeat;
+   height: 200px;
+}
+
+#chateaus-con {
+   background: url(../images/rooms/mob_rm_sect_01.jpg) no-repeat;
+   height: 195px;
+}
+
+#villas-con {
+   background: url(../images/rooms/mob_rm_sect_02.jpg) no-repeat;
+   height: 195px;
+}
+
+#masters-con {
+   background: url(../images/rooms/mob_rm_sect_03.jpg) no-repeat;
+   height: 195px;
+}
+
+#chalet-con {
+   background: url(../images/rooms/mob_rm_sect_04.jpg) no-repeat;
+   height: 195px;
+}
+
+#exotics-con {
+   background: url(../images/rooms/mob_rm_sect_05.jpg) no-repeat;
+   height: 195px;
+}
+
+#juniors-con {
+   background: url(../images/rooms/mob_rm_sect_06.jpg) no-repeat;
+   height: 195px;
+}
+
+.rooms-image-con h2 {
+   font-size: 20px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.rooms-image-con a {
+   color: #707070;
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.rooms-image-con {
+   margin-bottom: 20px;
 }
