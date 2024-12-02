@@ -24,6 +24,10 @@ Couples Resort Responsive Build
     Packages Page
 
     1.  Sections
+
+    activities Page
+
+    1.  Sections
  */
 
  /* Index Page */
@@ -79,6 +83,7 @@ Couples Resort Responsive Build
    font-size: 18px;
    font-weight: bold;
 }
+
  
  /* 2. ---Main Nav--- */
  
@@ -132,8 +137,6 @@ Couples Resort Responsive Build
  #main-nav ul li:last-child {
     margin-bottom: 10px;
  }
- 
- 
  
  #logo {
     margin-bottom: 20px;
@@ -247,14 +250,12 @@ Couples Resort Responsive Build
    padding: 5px;
  }
  
- 
- 
  #why-choose-us-hero-con {
    background: url(../images/mob_hm_sect_01.jpg) no-repeat;
    height: 195px;
  }
  
- #why-choose-us-heading-box, #villas-heading-box, #chalet-heading-box, #masters-heading-box, #exotics-heading-box, #juniors-heading-box {
+ #why-choose-us-heading-box, #villas-heading-box, #chalet-heading-box, #masters-heading-box, #exotics-heading-box, #juniors-heading-box, #fishing-heading-box, #agl-heading-box {
     align-self: end;
  }
  
@@ -563,4 +564,40 @@ Couples Resort Responsive Build
    font-weight: bold;
    line-height: 5px;
    color: #9a2018;
+}
+
+/* Activities Page */
+
+/* 1) Section */
+
+#activities {
+   background: url(../images/activities/mob_activities_hero_01.jpg) no-repeat;
+   height: 200px;
+}
+
+#park-activites-con {
+   background: url(../images/activities/mob_activities_sect_01.jpg) no-repeat;
+   height: 195px;
+}
+
+#fishing-con {
+   background: url(../images/activities/mob_activities_sect_02.jpg) no-repeat;
+   height: 195px;
+}
+
+#agl-con {
+   background: url(../images/activities/mob_activities_sect_03.jpg) no-repeat;
+   height: 195px;
+}
+
+.activities-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px
+}
+
+.activities-image-con a, #hero-summary a {
+   color: #9a2018;
+   font-size: 12px;
+   margin-bottom: 10px;
 }
