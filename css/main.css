@@ -20,6 +20,10 @@ Couples Resort Responsive Build
     Rooms Page
 
     1.  Rooms Section
+
+    Packages Page
+
+    1.  Sections
  */
 
  /* Index Page */
@@ -63,6 +67,10 @@ Couples Resort Responsive Build
    font-size: inherit;
    padding: 0px;
  } 
+
+ ul li {
+   padding:10px 0px;
+ }
 
  details {
    border: solid 1px lightgray;
@@ -521,4 +529,38 @@ Couples Resort Responsive Build
 
 .rooms-image-con {
    margin-bottom: 20px;
+}
+
+/* Package Page */
+
+/* 1) Section */
+
+#package {
+   background: url(../images/packages/mob_pa_hero_01.jpg) no-repeat;
+   height: 200px;
+}
+
+#guest-receives-con {
+   background: url(../images/packages/mob_pa_sect_01.jpg) no-repeat;
+   height: 195px;
+}
+
+#rental-con {
+   background: url(../images/packages/mob_pa_sect_02.jpg) no-repeat;
+   height: 195px;
+}
+
+.Equipments ul li {
+   display: inline;
+   margin-right: 25px;
+}
+
+#fees-summary {
+   margin: 15px 0;
+}
+
+#fees-summary span {
+   font-weight: bold;
+   line-height: 5px;
+   color: #9a2018;
 }
