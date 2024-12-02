@@ -28,6 +28,10 @@ Couples Resort Responsive Build
     activities Page
 
     1.  Sections
+
+    Valentine Page
+
+    1.  Sections
  */
 
  /* Index Page */
@@ -262,7 +266,7 @@ Couples Resort Responsive Build
    height: 195px;
  }
  
- #why-choose-us-heading-box, #villas-heading-box, #chalet-heading-box, #masters-heading-box, #exotics-heading-box, #juniors-heading-box, #fishing-heading-box, #agl-heading-box {
+ #why-choose-us-heading-box, #villas-heading-box, #chalet-heading-box, #masters-heading-box, #exotics-heading-box, #juniors-heading-box, #fishing-heading-box, #agl-heading-box, #val_activities-heading-box {
     align-self: end;
  }
  
@@ -649,6 +653,10 @@ Couples Resort Responsive Build
    margin-bottom: 10px;
 }
 
+/* Valenntine Page */
+
+/* 1) Sections */
+
 #desk_main-nav {
    text-align: center;
 }
@@ -681,4 +689,44 @@ Couples Resort Responsive Build
 
 #book-now-footer{
    height: 75px;
+}
+
+#val_package {
+   background: url(../images/valentine/desk_val_hero_01.jpg) no-repeat;
+   height: 455px;
+}
+
+#val_activities-con {
+   background: url(../images/valentine/desk_val_sect_01.jpg) no-repeat;
+   height: 455px;
+}
+
+#val_accommodation-con {
+   background: url(../images/valentine/desk_val_sect_02.jpg) no-repeat;
+   height: 455px;
+}
+
+#desk_contact-hero-con {
+   background: url(../images/desk_hm_sect_03.jpg) no-repeat;
+   height: 455px;
+}
+
+#desk_footer-hero {
+   background: url(../images/desk_footer.jpg) no-repeat;
+   height: 455px;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 20px;
+ }
+ 
+#desk_footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+
+.fonts p {
+   font-size: 20px;
+   font-weight: bold;
 }
